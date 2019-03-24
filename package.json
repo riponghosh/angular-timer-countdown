@@ -21,6 +21,7 @@
     "@angular/router": "~7.2.0",
     "angular-cd-timer": "0.0.2",
     "angular-countdown-timer": "0.0.1",
+    "angular2-timer": "^0.1.1",
     "core-js": "^2.5.4",
     "ng2-date-countdown": "^1.0.3",
     "ng4-date-countdown-timer": "^1.0.4",
