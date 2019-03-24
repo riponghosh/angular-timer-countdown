@@ -3,16 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CountdownModule } from 'ngx-countdown';
+// import { CountdownModule } from 'ngx-countdown';
+import {CountDown} from "ng2-date-countdown";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CountDown
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CountdownModule
+    // CountdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]
