@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-timer-countdown';
+  date = new Date('2019-04-26T00:00:00');
+
 
   finish(){
   	alert('finish');

@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 // import { CountdownModule } from 'ngx-countdown';
 // import {CountDown} from "ng2-date-countdown";
 // import { CountdownTimerModule } from 'ngx-countdown-timer';
-import { CdTimerModule } from 'angular-cd-timer';
+// import { CdTimerModule } from 'angular-cd-timer';
+import { CountdownTimerModule } from 'angular-countdown-timer';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CdTimerModule } from 'angular-cd-timer';
     AppRoutingModule,
     // CountdownModule,
     // CountdownTimerModule,
-    CdTimerModule
+    // CdTimerModule,
+    CountdownTimerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
